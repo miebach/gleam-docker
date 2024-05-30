@@ -2,6 +2,10 @@
 
 Gleam development quickstart with docker compose.
 
-## Other options
+## Example webserver
+
+https://gleam.run/deployment/fly/#prepare-an-application
+
+## Alternative Dockerfile
 
 https://gleam.run/deployment/fly/#add-a-dockerfile
