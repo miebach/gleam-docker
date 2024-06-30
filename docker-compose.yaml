@@ -8,8 +8,10 @@ services:
     #   dockerfile: Dockerfile
     ports:
       - "8080:8080"
+      - "8000:8000"
     volumes:
       - .:/app
+      - ./.ssh/:/root/.ssh
     command: tail -f /dev/null    
 
 
